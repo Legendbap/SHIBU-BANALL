@@ -19,7 +19,7 @@ if ENV:
     API_ID=int(os.environ.get("API_ID",""))
     API_HASH=str(os.environ.get("API_HASH",""))
     TOKEN=str(os.environ.get("TOKEN",""))
-    SUDO = list(int(i) for i in os.environ.get("SUDO", "7009601543").split(" "))
+    SUDO = list(int(i) for i in os.environ.get("SUDO", "7841462845").split(" "))
     BOT_ID=int(os.environ.get("BOT_ID",""))
     BOT_USERNAME=str(os.environ.get("BOT_USERNAME",""))
 else:
